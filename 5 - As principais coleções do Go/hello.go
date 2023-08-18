@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"reflect"
 )
 
 func main() {
-
+	exibeNomes()
 	exibeIntroducao()
 	for {
 
@@ -58,6 +59,8 @@ func iniciarMonitoramento() {
 	sites[1] = "https://caelum.com.br"
 	sites[2] = "https://google.com.br"
 	sites[3] = "https://youtube.com.br"
+	fmt.Println(reflect.TypeOf(sites))
+	site := sites[0]
 
 	resp, _ := http.Get(site)
 
@@ -66,4 +69,12 @@ func iniciarMonitoramento() {
 	} else {
 		fmt.Println("O site:", site, "está com problemas! Status code:", resp.StatusCode)
 	}
+}
+
+func exibeNomes() {
+	nomes := []string{"Eduardo", "Daniel", "Bernardo"}
+	nomes = append(nomes, "Aparecida")
+	fmt.Println(nomes)
+	fmt.Println(reflect.TypeOf(nomes))
+	fmt.Println("O meu slice tem ", len(nomes))
 }
