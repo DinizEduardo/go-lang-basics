@@ -7,11 +7,14 @@ import (
 )
 
 func main() {
-	exibeIntroducao()
+	//exibeIntroducao()
 
-	exibeMenu()
+	//exibeMenu()
 
 	comando := leComando()
+
+	_, idade := devolveNomeEIdade()
+	fmt.Println(idade)
 
 	switch comando {
 	case 1:
@@ -48,9 +51,15 @@ func leComando() int {
 	return comandoLido
 }
 
+func devolveNomeEIdade() (string, int) {
+	nome := "Eduardo"
+	idade := 23
+	return nome, idade
+}
+
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
 	site := "https://www.alura.com.br"
-	resp, err := http.Get(site)
-
+	resp, _ := http.Get(site)
+	fmt.Println(resp)
 }
