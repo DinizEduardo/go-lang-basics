@@ -17,3 +17,5 @@ O repositório está organizado com base nos modulos do curso
 - **`3 - controlando o fluxo do script/`**: Este diretorio contem o projeto ensinando o uso de if/switch para controlar o fluxo da aplicação
 
 - **`4 - fazendo requisicoes para a web/`**: Este diretorio contem o projeto ensinando a criar funções, e fazer chamadas http para sites validando seu status code
+
+- **`5 - As principais colecoes do go/`**: Este diretorio contem o projeto ensinando sobre as principais colecoes usadas em go.
