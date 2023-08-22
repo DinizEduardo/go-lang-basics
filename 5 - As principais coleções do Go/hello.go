@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-	exibeNomes()
 	exibeIntroducao()
 	for {
 
@@ -69,12 +68,4 @@ func iniciarMonitoramento() {
 	} else {
 		fmt.Println("O site:", site, "está com problemas! Status code:", resp.StatusCode)
 	}
-}
-
-func exibeNomes() {
-	nomes := []string{"Eduardo", "Daniel", "Bernardo"}
-	nomes = append(nomes, "Aparecida")
-	fmt.Println(nomes)
-	fmt.Println(reflect.TypeOf(nomes))
-	fmt.Println("O meu slice tem ", len(nomes))
 }
