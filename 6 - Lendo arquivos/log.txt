@@ -10,3 +10,15 @@
 22/08/2023 00:41:39 - https://caelum.com.br - online: true
 22/08/2023 00:41:39 - https://google.com.br - online: true
 22/08/2023 00:41:40 - https://youtube.com.br - online: true
+22/08/2023 00:46:41 - https://www.alura.com.br - online: true
+22/08/2023 00:46:42 - https://caelum.com.br - online: true
+22/08/2023 00:46:42 - https://google.com.br - online: true
+22/08/2023 00:46:43 - https://youtube.com.br - online: true
+22/08/2023 00:46:48 - https://www.alura.com.br - online: true
+22/08/2023 00:46:48 - https://caelum.com.br - online: true
+22/08/2023 00:46:49 - https://google.com.br - online: true
+22/08/2023 00:46:49 - https://youtube.com.br - online: true
+22/08/2023 00:46:54 - https://www.alura.com.br - online: true
+22/08/2023 00:46:54 - https://caelum.com.br - online: true
+22/08/2023 00:46:54 - https://google.com.br - online: true
+22/08/2023 00:46:55 - https://youtube.com.br - online: true
