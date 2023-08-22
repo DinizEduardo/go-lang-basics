@@ -3,8 +3,10 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"io"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -97,13 +99,18 @@ func lerSitesDoArquivo() []string {
 
 	leitor := bufio.NewReader(arquivo)
 
-	linha, err := leitor.ReadString('\n')
+	for {
+		linha, err := leitor.ReadString('\n')
+		linha = strings.TrimSpace(linha)
 
-	if err != nil {
-		fmt.Println("Ocorreu um erro:", err)
+		sites = append(sites, linha)
+
+		if err == io.EOF {
+			break
+		}
 	}
 
-	fmt.Println(linha)
+	arquivo.Close()
 
 	return sites
 }
