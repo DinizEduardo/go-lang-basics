@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"reflect"
 )
 
 func main() {
@@ -53,12 +52,16 @@ func leComando() int {
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
-	var sites [4]string
-	sites[0] = "https://www.alura.com.br"
-	sites[1] = "https://caelum.com.br"
-	sites[2] = "https://google.com.br"
-	sites[3] = "https://youtube.com.br"
-	fmt.Println(reflect.TypeOf(sites))
+	sites := []string{
+		"https://www.alura.com.br",
+		"https://caelum.com.br",
+		"https://google.com.br",
+		"https://youtube.com.br"}
+
+	for i, site := range sites {
+		fmt.Println("Estou passando na posicao", i, "do meu slice e essa posicao tem o site:", site)
+	}
+
 	site := sites[0]
 
 	resp, _ := http.Get(site)
