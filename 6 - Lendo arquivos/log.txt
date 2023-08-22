@@ -1,12 +1,12 @@
-https://www.alura.com.br - online: true
-https://caelum.com.br - online: true
-https://google.com.br - online: true
-https://youtube.com.br - online: true
-https://www.alura.com.br - online: true
-https://caelum.com.br - online: true
-https://google.com.br - online: true
-https://youtube.com.br - online: true
-https://www.alura.com.br - online: true
-https://caelum.com.br - online: true
-https://google.com.br - online: true
-https://youtube.com.br - online: true
+22/08/2023 00:41:26 - https://www.alura.com.br - online: true
+22/08/2023 00:41:27 - https://caelum.com.br - online: true
+22/08/2023 00:41:27 - https://google.com.br - online: true
+22/08/2023 00:41:28 - https://youtube.com.br - online: true
+22/08/2023 00:41:33 - https://www.alura.com.br - online: true
+22/08/2023 00:41:33 - https://caelum.com.br - online: true
+22/08/2023 00:41:33 - https://google.com.br - online: true
+22/08/2023 00:41:34 - https://youtube.com.br - online: true
+22/08/2023 00:41:39 - https://www.alura.com.br - online: true
+22/08/2023 00:41:39 - https://caelum.com.br - online: true
+22/08/2023 00:41:39 - https://google.com.br - online: true
+22/08/2023 00:41:40 - https://youtube.com.br - online: true
